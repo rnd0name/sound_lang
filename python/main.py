@@ -20,7 +20,7 @@ def play_line(line: list) -> None:
         for i in range(int(line[1])) :
             arg0 : int = i * int(line[2]) + int(line[3])
             arg1 : int = i * int(line[4]) + int(line[5])
-            arg2 : int = i * int(line[6]) + int(line[7])
+            arg2 : int = i * float(line[6]) + float(line[7])
             for j in range(int(line[8])) :
                 play_line([str(word).strip() for word in code[current_line+j+1].replace('<arg0>', str(arg0)).replace('<arg1>', str(arg1)).replace('<arg2>', str(arg2)).split(' ') if word.strip() != '']) if code[current_line].strip() != ''else None
         current_line += int(line[8])
@@ -39,3 +39,4 @@ else :
         if input_line.strip().lower() in ['exit', 'quit'] :
             break
         play_line([str(word).strip() for word in input_line.split(' ') if word.strip() != ''])
+
