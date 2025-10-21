@@ -2,4 +2,6 @@ beep 4500 100
 sleep 0.250
 for 3 100 3500 15 50 0 0 1
 beep <arg0> <arg1>
-
+for 5 -250 3700 20 50 0.02 0 2
+beep <arg0> <arg1>
+sleep <arg2>
