@@ -23,4 +23,8 @@ the number of lines in the loop
 <arg> variables work as folows :  
 `<arg0> = argument 2 * current iteration + argument 3`  
 `<arg1> = argument 4 * current iteration + argument 5`  
-`<arg2> = argument 6 * current iteration + argument 7`  
+`<arg2> = argument 6 * current iteration + argument 7` 
+you can use them while in the loop as arguments
+
+### comments
+comments must start by `#`
