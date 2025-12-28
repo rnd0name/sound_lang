@@ -55,6 +55,12 @@ Comments must start with `#`.
 
 ---
 
+### Requierments
+
+You will need python 3
+
+---
+
 ## Writing `.beep` Files
 
 Files do not need to use the `.beep` extension — a regular text file (`.txt`) or any extension you prefer  
